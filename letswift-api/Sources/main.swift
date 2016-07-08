@@ -1,6 +1,8 @@
 import Foundation
 
+import SwiftyJSON
 import Kitura
+import KituraNet
 
 import LoggerAPI
 import HeliumLogger
@@ -12,12 +14,11 @@ Log.logger = HeliumLogger()
 class BasicAuthMiddleware: RouterMiddleware {
     func handle(request: RouterRequest, response: RouterResponse, next: () -> Void) {
         let authString = request.headers["Authorization"]
-        Log.info("Authorization: \(authString)")
         next()
     }
 }
 
-var objectiveCCount = 0
+var objectivecCount = 0
 var swiftCount = 0
 
 router.get("/vote") { _, response, next in
@@ -26,17 +27,24 @@ router.get("/vote") { _, response, next in
     errorResponse["error"].stringValue = "Failed to Get Vote result."
     
     var result = JSON([:])
-    result["objective-c"].int = 13
-    result["swift"].int = 250
+    result["objective-c"].int = objectivecCount
+    result["swift"].int = swiftCount
     response.status(HTTPStatusCode.OK).send(json: result)
-    
+    next()    
 }
 
 
-router.put("/votes/objectivec_voted") {request, response, next in
+router.put("/votes/objectivec_voted") { request, response, next in
     response.headers["Content-Type"] = "application/json"
-    objectiveCCount += 1
+    objectivecCount += 1
     
+    try response.send("Got a PUT request").end()
+}
+
+router.put("/votes/swift_voted") { request, response, next in
+    response.headers["Content-Type"] = "application/json"
+    swiftCount += 1
+
     try response.send("Got a PUT request").end()
 }
 

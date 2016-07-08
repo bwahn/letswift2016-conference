@@ -1,0 +1,156 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ClientResponse"
+provides-nominal:
+- "C9KituraNet14ClientResponse"
+provides-member:
+- ["C9KituraNet14ClientResponse", ""]
+depends-top-level:
+- !private ">"
+- "BufferList"
+- "IncomingMessageHelper"
+- "IntegerLiteralType"
+- "Int"
+- "IncomingMessage"
+- "NSMutableData"
+- "ClientResponse"
+- !private "BooleanLiteralType"
+- "FloatLiteralType"
+- !private "StringLiteralType"
+- "HTTPStatusCode"
+depends-member:
+- ["Ps9AnyObject", "BufferList"]
+- ["Ps9AnyObject", "HTTPStatusCode"]
+- !private ["Ps9AnyObject", "fill"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "readHelper"]
+- ["Ps9AnyObject", "responseBuffers"]
+- !private ["Ps9AnyObject", "setup"]
+- ["Ps9AnyObject", "status"]
+- ["Ps9AnyObject", "statusCode"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7Boolean", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["C9KituraNet10BufferList", "fill"]
+- ["C9KituraNet10BufferList", "init"]
+- ["C9KituraNet14ClientResponse", "BufferList"]
+- ["C9KituraNet14ClientResponse", "HTTPStatusCode"]
+- ["C9KituraNet14ClientResponse", "Int"]
+- ["C9KituraNet14ClientResponse", "NSMutableData"]
+- ["C9KituraNet14ClientResponse", "deinit"]
+- ["C9KituraNet14ClientResponse", "init"]
+- ["C9KituraNet14ClientResponse", "readHelper"]
+- ["C9KituraNet14ClientResponse", "responseBuffers"]
+- !private ["C9KituraNet14ClientResponse", "setup"]
+- ["C9KituraNet14ClientResponse", "status"]
+- ["C9KituraNet14ClientResponse", "statusCode"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "unknown"]
+- ["P9KituraNet18HTTPParserDelegate", "BufferList"]
+- ["P9KituraNet18HTTPParserDelegate", "HTTPStatusCode"]
+- ["P9KituraNet18HTTPParserDelegate", "init"]
+- ["P9KituraNet18HTTPParserDelegate", "readHelper"]
+- ["P9KituraNet18HTTPParserDelegate", "responseBuffers"]
+- !private ["P9KituraNet18HTTPParserDelegate", "setup"]
+- ["P9KituraNet18HTTPParserDelegate", "status"]
+- ["P9KituraNet18HTTPParserDelegate", "statusCode"]
+- ["P9KituraNet18HTTPParserDelegate", ""]
+- !private ["O9KituraNet14HTTPStatusCode", "deinit"]
+- !private ["O9KituraNet14HTTPStatusCode", "init"]
+- ["O9KituraNet14HTTPStatusCode", "unknown"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "unknown"]
+- ["C9KituraNet15IncomingMessage", "BufferList"]
+- ["C9KituraNet15IncomingMessage", "HTTPStatusCode"]
+- ["C9KituraNet15IncomingMessage", "Int"]
+- ["C9KituraNet15IncomingMessage", "NSMutableData"]
+- ["C9KituraNet15IncomingMessage", "init"]
+- ["C9KituraNet15IncomingMessage", "readHelper"]
+- ["C9KituraNet15IncomingMessage", "responseBuffers"]
+- !private ["C9KituraNet15IncomingMessage", "setup"]
+- ["C9KituraNet15IncomingMessage", "status"]
+- ["C9KituraNet15IncomingMessage", "statusCode"]
+- ["C9KituraNet15IncomingMessage", ""]
+- ["P9KituraNet21IncomingMessageHelper", "BufferList"]
+- ["P9KituraNet21IncomingMessageHelper", "HTTPStatusCode"]
+- ["P9KituraNet21IncomingMessageHelper", "readHelper"]
+- !private ["P9KituraNet21IncomingMessageHelper", "responseBuffers"]
+- !private ["P9KituraNet21IncomingMessageHelper", "setup"]
+- !private ["P9KituraNet21IncomingMessageHelper", "status"]
+- !private ["P9KituraNet21IncomingMessageHelper", "statusCode"]
+- ["P9KituraNet21IncomingMessageHelper", ""]
+- !private ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "unknown"]
+- ["P6Socket12SocketReader", "BufferList"]
+- ["P6Socket12SocketReader", "HTTPStatusCode"]
+- ["P6Socket12SocketReader", "init"]
+- ["P6Socket12SocketReader", "readHelper"]
+- ["P6Socket12SocketReader", "responseBuffers"]
+- !private ["P6Socket12SocketReader", "setup"]
+- ["P6Socket12SocketReader", "status"]
+- ["P6Socket12SocketReader", "statusCode"]
+- ["P6Socket12SocketReader", ""]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["P10Foundation12_CFBridgable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation22_NSObjectRepresentable", "_getBuiltinLogicValue"]
+- !private ["P10Foundation21_ObjectTypeBridgeable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps7Boolean"
+- !private "Ps25BooleanLiteralConvertible"
+- "C9KituraNet10BufferList"
+- "C9KituraNet14ClientResponse"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "P9KituraNet18HTTPParserDelegate"
+- "O9KituraNet14HTTPStatusCode"
+- "Ps8Hashable"
+- "C9KituraNet15IncomingMessage"
+- "P9KituraNet21IncomingMessageHelper"
+- "Ps16RawRepresentable"
+- "P6Socket12SocketReader"
+- !private "Vs12StaticString"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "P10Foundation12_CFBridgable"
+- !private "P10Foundation22_NSObjectRepresentable"
+- !private "P10Foundation21_ObjectTypeBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/Visibility.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/LibcShims.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/RefCount.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/HeapObject.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/FoundationShims.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/module.map"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/vagrant/letswift2016-conference/.build/debug/KituraSys.swiftmodule"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/dispatch/module.map"
+- "/home/vagrant/letswift2016-conference/.build/debug/Socket.swiftmodule"
+- "/home/vagrant/letswift2016-conference/.build/debug/LoggerAPI.swiftmodule"
+- "/home/vagrant/letswift2016-conference/Packages/CHttpParser-0.1.1/Sources/CHttpParser/include/module.modulemap"
+- "/home/vagrant/letswift2016-conference/Packages/CHttpParser-0.1.1/Sources/CHttpParser/include/../http_parser.h"
+- "/home/vagrant/letswift2016-conference/Packages/CHttpParser-0.1.1/Sources/CHttpParser/include/../utils.h"
+- "/home/vagrant/letswift2016-conference/Packages/CCurl-0.2.1/module.modulemap"
+interface-hash: "c015df8af6afcb369e7dcaefab41ccd3"

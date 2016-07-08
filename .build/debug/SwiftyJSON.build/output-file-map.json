@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/home/vagrant/letswift2016-conference/.build/debug/SwiftyJSON.build/master.swiftdeps"
+  },
+  "/home/vagrant/letswift2016-conference/Packages/SwiftyJSON-9.0.0/Source/SwiftyJSON.swift": {
+    "dependencies": "/home/vagrant/letswift2016-conference/.build/debug/SwiftyJSON.build/SwiftyJSON.d",
+    "object": "/home/vagrant/letswift2016-conference/.build/debug/SwiftyJSON.build/SwiftyJSON.swift.o",
+    "swiftmodule": "/home/vagrant/letswift2016-conference/.build/debug/SwiftyJSON.build/SwiftyJSON~partial.swiftmodule",
+    "swift-dependencies": "/home/vagrant/letswift2016-conference/.build/debug/SwiftyJSON.build/SwiftyJSON.swiftdeps"
+  },
+  "/home/vagrant/letswift2016-conference/Packages/SwiftyJSON-9.0.0/Source/LclJSONSerialization.swift": {
+    "dependencies": "/home/vagrant/letswift2016-conference/.build/debug/SwiftyJSON.build/LclJSONSerialization.d",
+    "object": "/home/vagrant/letswift2016-conference/.build/debug/SwiftyJSON.build/LclJSONSerialization.swift.o",
+    "swiftmodule": "/home/vagrant/letswift2016-conference/.build/debug/SwiftyJSON.build/LclJSONSerialization~partial.swiftmodule",
+    "swift-dependencies": "/home/vagrant/letswift2016-conference/.build/debug/SwiftyJSON.build/LclJSONSerialization.swiftdeps"
+  }
+}

@@ -1,0 +1,8 @@
+version: "Swift version 3.0-dev (LLVM cb08d1dbbd, Clang 383859a9c4, Swift 9e8266aaeb)"
+options: "65e957eff9547392eb24dacded4b9b35"
+build_time: [521291515, 656021000]
+inputs:
+  "/home/vagrant/letswift2016-conference/Packages/Kitura-Sys-0.21.0/Sources/KituraSys/SysUtils.swift": [521291476, 0]
+  "/home/vagrant/letswift2016-conference/Packages/Kitura-Sys-0.21.0/Sources/KituraSys/Queue.swift": [521291476, 0]
+  "/home/vagrant/letswift2016-conference/Packages/Kitura-Sys-0.21.0/Sources/KituraSys/Group.swift": [521291476, 0]
+  "/home/vagrant/letswift2016-conference/Packages/Kitura-Sys-0.21.0/Sources/KituraSys/StringUtils.swift": [521291476, 0]

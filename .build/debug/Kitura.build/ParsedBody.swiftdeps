@@ -1,0 +1,58 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ParsedBody"
+provides-nominal:
+- "O6Kitura10ParsedBody"
+provides-member:
+- ["O6Kitura10ParsedBody", ""]
+depends-top-level:
+- "String"
+- "ParsedBody"
+- "NSData"
+- "Part"
+- "JSON"
+depends-member:
+- ["O6Kitura10ParsedBody", "JSON"]
+- ["O6Kitura10ParsedBody", "NSData"]
+- ["O6Kitura10ParsedBody", "Part"]
+- ["O6Kitura10ParsedBody", "String"]
+- ["O6Kitura10ParsedBody", "json"]
+- ["O6Kitura10ParsedBody", "multipart"]
+- ["O6Kitura10ParsedBody", "raw"]
+- ["O6Kitura10ParsedBody", "text"]
+- ["O6Kitura10ParsedBody", "urlEncoded"]
+depends-nominal:
+- "O6Kitura10ParsedBody"
+depends-dynamic-lookup:
+depends-external:
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/Visibility.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/LibcShims.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/RefCount.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/HeapObject.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/FoundationShims.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/module.map"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/vagrant/letswift2016-conference/.build/debug/KituraNet.swiftmodule"
+- "/home/vagrant/letswift2016-conference/Packages/CHttpParser-0.1.1/Sources/CHttpParser/include/module.modulemap"
+- "/home/vagrant/letswift2016-conference/Packages/CHttpParser-0.1.1/Sources/CHttpParser/include/../http_parser.h"
+- "/home/vagrant/letswift2016-conference/Packages/CHttpParser-0.1.1/Sources/CHttpParser/include/../utils.h"
+- "/home/vagrant/letswift2016-conference/Packages/CCurl-0.2.1/module.modulemap"
+- "/home/vagrant/letswift2016-conference/.build/debug/KituraSys.swiftmodule"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/dispatch/module.map"
+- "/home/vagrant/letswift2016-conference/.build/debug/LoggerAPI.swiftmodule"
+- "/home/vagrant/letswift2016-conference/.build/debug/Socket.swiftmodule"
+- "/home/vagrant/letswift2016-conference/.build/debug/SwiftyJSON.swiftmodule"
+- "/home/vagrant/letswift2016-conference/.build/debug/KituraTemplateEngine.swiftmodule"
+interface-hash: "2e17ce3b15cc3ba27da2e4872de535ee"

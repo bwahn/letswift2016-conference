@@ -1,0 +1,7 @@
+version: "Swift version 3.0-dev (LLVM cb08d1dbbd, Clang 383859a9c4, Swift 9e8266aaeb)"
+options: "1ef4ec0a064be996132a97577323e382"
+build_time: [521291515, 105961000]
+inputs:
+  "/home/vagrant/letswift2016-conference/Packages/Socket-0.5.20/Sources/Socket.swift": [521291493, 0]
+  "/home/vagrant/letswift2016-conference/Packages/Socket-0.5.20/Sources/SocketUtils.swift": [521291489, 0]
+  "/home/vagrant/letswift2016-conference/Packages/Socket-0.5.20/Sources/SocketProtocols.swift": [521291489, 0]

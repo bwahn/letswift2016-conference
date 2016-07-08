@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/home/vagrant/letswift2016-conference/.build/debug/KituraTemplateEngine.build/master.swiftdeps"
+  },
+  "/home/vagrant/letswift2016-conference/Packages/Kitura-TemplateEngine-0.16.0/Sources/KituraTemplateEngine/TemplateEngine.swift": {
+    "dependencies": "/home/vagrant/letswift2016-conference/.build/debug/KituraTemplateEngine.build/TemplateEngine.d",
+    "object": "/home/vagrant/letswift2016-conference/.build/debug/KituraTemplateEngine.build/TemplateEngine.swift.o",
+    "swiftmodule": "/home/vagrant/letswift2016-conference/.build/debug/KituraTemplateEngine.build/TemplateEngine~partial.swiftmodule",
+    "swift-dependencies": "/home/vagrant/letswift2016-conference/.build/debug/KituraTemplateEngine.build/TemplateEngine.swiftdeps"
+  }
+}

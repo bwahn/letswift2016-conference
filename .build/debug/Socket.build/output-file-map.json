@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/home/vagrant/letswift2016-conference/.build/debug/Socket.build/master.swiftdeps"
+  },
+  "/home/vagrant/letswift2016-conference/Packages/Socket-0.5.20/Sources/Socket.swift": {
+    "dependencies": "/home/vagrant/letswift2016-conference/.build/debug/Socket.build/Socket.d",
+    "object": "/home/vagrant/letswift2016-conference/.build/debug/Socket.build/Socket.swift.o",
+    "swiftmodule": "/home/vagrant/letswift2016-conference/.build/debug/Socket.build/Socket~partial.swiftmodule",
+    "swift-dependencies": "/home/vagrant/letswift2016-conference/.build/debug/Socket.build/Socket.swiftdeps"
+  },
+  "/home/vagrant/letswift2016-conference/Packages/Socket-0.5.20/Sources/SocketUtils.swift": {
+    "dependencies": "/home/vagrant/letswift2016-conference/.build/debug/Socket.build/SocketUtils.d",
+    "object": "/home/vagrant/letswift2016-conference/.build/debug/Socket.build/SocketUtils.swift.o",
+    "swiftmodule": "/home/vagrant/letswift2016-conference/.build/debug/Socket.build/SocketUtils~partial.swiftmodule",
+    "swift-dependencies": "/home/vagrant/letswift2016-conference/.build/debug/Socket.build/SocketUtils.swiftdeps"
+  },
+  "/home/vagrant/letswift2016-conference/Packages/Socket-0.5.20/Sources/SocketProtocols.swift": {
+    "dependencies": "/home/vagrant/letswift2016-conference/.build/debug/Socket.build/SocketProtocols.d",
+    "object": "/home/vagrant/letswift2016-conference/.build/debug/Socket.build/SocketProtocols.swift.o",
+    "swiftmodule": "/home/vagrant/letswift2016-conference/.build/debug/Socket.build/SocketProtocols~partial.swiftmodule",
+    "swift-dependencies": "/home/vagrant/letswift2016-conference/.build/debug/Socket.build/SocketProtocols.swiftdeps"
+  }
+}

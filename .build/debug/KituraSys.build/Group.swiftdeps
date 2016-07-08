@@ -1,0 +1,141 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Group"
+- "GroupTimeout"
+provides-nominal:
+- "C9KituraSys5Group"
+- "O9KituraSys12GroupTimeout"
+provides-member:
+- ["C9KituraSys5Group", ""]
+- ["O9KituraSys12GroupTimeout", ""]
+depends-top-level:
+- "GroupTimeout"
+- !private "DISPATCH_TIME_FOREVER"
+- !private "dispatch_group_async"
+- !private "dispatch_time"
+- !private "DISPATCH_TIME_NOW"
+- "dispatch_group_create"
+- "Queue"
+- !private "NSEC_PER_SEC"
+- "Int64"
+- "Group"
+- !private "*"
+- !private "NSEC_PER_USEC"
+- !private "dispatch_group_wait"
+- !private "dispatch_time_t"
+- "Void"
+depends-member:
+- !private ["Ps9AnyObject", "DISPATCH_TIME_FOREVER"]
+- !private ["Ps9AnyObject", "DISPATCH_TIME_NOW"]
+- !private ["Ps9AnyObject", "Int64"]
+- !private ["Ps9AnyObject", "NSEC_PER_SEC"]
+- !private ["Ps9AnyObject", "NSEC_PER_USEC"]
+- !private ["Ps9AnyObject", "dispatch_group_async"]
+- ["Ps9AnyObject", "dispatch_group_create"]
+- !private ["Ps9AnyObject", "dispatch_group_wait"]
+- !private ["Ps9AnyObject", "dispatch_time"]
+- !private ["Ps9AnyObject", "osGroup"]
+- !private ["Ps9AnyObject", "osQueue"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps9Equatable", "init"]
+- !private ["C9KituraSys5Group", "DISPATCH_TIME_FOREVER"]
+- !private ["C9KituraSys5Group", "DISPATCH_TIME_NOW"]
+- ["C9KituraSys5Group", "GroupTimeout"]
+- !private ["C9KituraSys5Group", "Int64"]
+- !private ["C9KituraSys5Group", "NSEC_PER_SEC"]
+- !private ["C9KituraSys5Group", "NSEC_PER_USEC"]
+- ["C9KituraSys5Group", "Queue"]
+- ["C9KituraSys5Group", "Void"]
+- ["C9KituraSys5Group", "deinit"]
+- !private ["C9KituraSys5Group", "dispatch_group_async"]
+- ["C9KituraSys5Group", "dispatch_group_create"]
+- !private ["C9KituraSys5Group", "dispatch_group_wait"]
+- !private ["C9KituraSys5Group", "dispatch_time"]
+- !private ["C9KituraSys5Group", "dispatch_time_t"]
+- ["C9KituraSys5Group", "enqueueAsynchronously"]
+- ["C9KituraSys5Group", "init"]
+- !private ["C9KituraSys5Group", "osGroup"]
+- ["C9KituraSys5Group", "wait"]
+- ["O9KituraSys12GroupTimeout", "Int64"]
+- ["O9KituraSys12GroupTimeout", "ever"]
+- ["O9KituraSys12GroupTimeout", "milliSeconds"]
+- ["O9KituraSys12GroupTimeout", "nanoSeconds"]
+- ["O9KituraSys12GroupTimeout", "seconds"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Vs5Int64", "init"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["C9KituraSys5Queue", "osQueue"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["P10Foundation13_BitShiftable", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["P10Foundation12_IntegerLike", "init"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps17BitwiseOperations"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- "C9KituraSys5Group"
+- "O9KituraSys12GroupTimeout"
+- !private "Ps8Hashable"
+- !private "Vs5Int64"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps10MirrorPath"
+- !private "C9KituraSys5Queue"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "P10Foundation13_BitShiftable"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation12_IntegerLike"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/Visibility.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/SwiftStdint.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/UnicodeShims.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/SwiftStddef.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/LibcShims.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/RuntimeStubs.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/RuntimeShims.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/RefCount.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/HeapObject.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/GlobalObjects.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/FoundationShims.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/shims/module.map"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/dispatch/module.map"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/home/vagrant/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+interface-hash: "530a33c0a11d444ec900b9ad36a7e58d"

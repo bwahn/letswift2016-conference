@@ -1,0 +1,5 @@
+version: "Swift version 3.0-dev (LLVM cb08d1dbbd, Clang 383859a9c4, Swift 9e8266aaeb)"
+options: "07263ff621bb2b6c5bdcb1603bd4d26d"
+build_time: [521291514, 905816000]
+inputs:
+  "/home/vagrant/letswift2016-conference/Packages/LoggerAPI-0.8.0/Sources/LoggerAPI/Logger.swift": [521291484, 0]
