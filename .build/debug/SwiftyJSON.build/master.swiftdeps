@@ -1,6 +1,0 @@
-version: "Swift version 3.0-dev (LLVM cb08d1dbbd, Clang 383859a9c4, Swift 9e8266aaeb)"
-options: "fa8d336bd282909d083a963a8686247f"
-build_time: [521291515, 225357000]
-inputs:
-  "/home/vagrant/letswift2016-conference/Packages/SwiftyJSON-9.0.0/Source/SwiftyJSON.swift": [521291505, 0]
-  "/home/vagrant/letswift2016-conference/Packages/SwiftyJSON-9.0.0/Source/LclJSONSerialization.swift": [521291505, 0]

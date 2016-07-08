@@ -1,5 +1,0 @@
-test:
-  image: ibmcom/swift-ubuntu
-  volumes:
-    - ./:/test/
-  command: bash -c "make clean -C /test && make -C /test && make test -C /test"

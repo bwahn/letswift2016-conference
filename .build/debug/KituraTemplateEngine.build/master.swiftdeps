@@ -1,5 +1,0 @@
-version: "Swift version 3.0-dev (LLVM cb08d1dbbd, Clang 383859a9c4, Swift 9e8266aaeb)"
-options: "38fd763843160a7f4e1b4c95dd1a8cea"
-build_time: [521291515, 553251000]
-inputs:
-  "/home/vagrant/letswift2016-conference/Packages/Kitura-TemplateEngine-0.16.0/Sources/KituraTemplateEngine/TemplateEngine.swift": [521291512, 0]
