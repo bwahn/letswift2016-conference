@@ -1,0 +1,69 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+BOX_URL =  'https://cloud-images.ubuntu.com/vagrant/wily/current/wily-server-cloudimg-amd64-vagrant-disk1.box'.freeze
+
+SWIFT_PATH = 'https://swift.org/builds/development/ubuntu1510/swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a'.freeze
+SWIFT_DIRECTORY = 'swift-DEVELOPMENT-SNAPSHOT-2016-06-06-a-ubuntu15.10'.freeze
+SWIFT_FILE = "#{SWIFT_DIRECTORY}.tar.gz".freeze
+SWIFT_HOME = "/home/vagrant/#{SWIFT_DIRECTORY}".freeze
+
+LIBDISPATCH_URL = '-b experimental/foundation https://github.com/apple/swift-corelibs-libdispatch'.freeze
+
+KITURA_URL = 'https://github.com/IBM-Swift/Kitura.git'.freeze
+KITURA_BRANCH = 'master'.freeze
+
+Vagrant.configure(2) do |config|
+  config.vm.box = BOX_URL
+  config.vm.network 'forwarded_port', guest: 8090, host: 8090
+
+  # Prevents "stdin: is not a tty" on Ubuntu (https://github.com/mitchellh/vagrant/issues/1673)
+  config.vm.provision 'fix-no-tty', type: 'shell' do |s|
+    s.privileged = false
+    s.inline = "sudo sed -i '/tty/!s/mesg n/tty -s \\&\\& mesg n/' /root/.profile"
+  end
+
+  config.vm.provision 'shell', privileged: false, inline: <<-SHELL
+
+### Install packages
+# 1. Install compiler, autotools
+    sudo apt-get --assume-yes install clang
+    sudo apt-get --assume-yes install autoconf libtool pkg-config
+# 2. Install dtrace (to generate provider.h)
+    sudo apt-get --assume-yes install systemtap-sdt-dev
+# 3. Install libdispatch pre-reqs
+    sudo apt-get --assume-yes install libblocksruntime-dev libkqueue-dev libpthread-workqueue-dev libbsd-dev
+# 4. Kitura packages
+    sudo apt-get --assume-yes install libhttp-parser-dev libcurl4-openssl-dev libhiredis-dev
+
+
+### Download Swift binary if not found, install it, and add it to the path
+    if [ ! -f "#{SWIFT_FILE}" ]; then
+        curl -O "#{SWIFT_PATH}/#{SWIFT_FILE}"
+    fi
+    tar zxf #{SWIFT_FILE}
+
+if [ $(grep -c "#{SWIFT_FILE}" .profile) -eq 0 ]; then
+        echo "export PATH=#{SWIFT_HOME}/usr/bin:\"${PATH}\"" >> .profile
+        source .profile
+    fi
+
+### Download and build libdispatch
+    git clone #{LIBDISPATCH_URL}
+    cd swift-corelibs-libdispatch && git submodule init && git submodule update && sh ./autogen.sh && ./configure --with-swift-toolchain=#{SWIFT_HOME}/usr --prefix=#{SWIFT_HOME}/usr && make && sudo make install
+    cd ..
+
+### Download and install Kitura
+    git clone #{KITURA_URL} -b #{KITURA_BRANCH}
+    cd Kitura
+    swift build -Xcc -fblocks
+    cd ..
+
+### Export LD_LIBRARY_PATH
+    if [ $(grep -c "LD_LIBRARY_PATH=/usr/local/lib" .profile) -eq 0 ]; then
+        echo "export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH" >> .profile
+        source .profile
+    fi
+
+  SHELL
+end
