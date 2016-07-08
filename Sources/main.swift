@@ -20,7 +20,7 @@ router.get("/vote") { _, response, next in
     errorResponse["error"].stringValue = "Failed to Get Vote result."
     
     var result = JSON([:])
-    result["objective-c"].int = objectivecCount
+    result["objective-c"].int = swiftCount
     result["swift"].int = swiftCount
     response.status(HTTPStatusCode.OK).send(json: result)
     next()    
