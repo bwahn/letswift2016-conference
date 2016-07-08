@@ -11,13 +11,6 @@ let router = Router()
 
 Log.logger = HeliumLogger()
 
-class BasicAuthMiddleware: RouterMiddleware {
-    func handle(request: RouterRequest, response: RouterResponse, next: () -> Void) {
-        let authString = request.headers["Authorization"]
-        next()
-    }
-}
-
 var objectivecCount = 0
 var swiftCount = 0
 
@@ -47,9 +40,6 @@ router.put("/votes/swift_voted") { request, response, next in
 
     try response.send("Got a PUT request").end()
 }
-
-// This route executes the echo middleware
-router.all(middleware: BasicAuthMiddleware())
 
 // Handles any errors that get set
 router.error { request, response, next in
