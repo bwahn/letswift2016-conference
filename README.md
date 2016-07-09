@@ -2,6 +2,21 @@
 
 SlideShare : http://www.slideshare.net/EricAhn/swift-serversidelet-swift2016
 
+# VirtualBox ( local machine )
+
+```
+$ vagrant up
+$ vagrant ssh
+$ cd ~/Kitura-Sample
+$ swift build -Xcc -fblocks
+$ .build/debug/KituraSample
+
+```
+letswift-api(backend service) is reachable at the following URL(s):
+```
+$ wget http://192192.168.99.100:8090/vote
+```
+
 # For Docker
 
 ```
@@ -128,5 +143,7 @@ Linking .build/debug/Kitura-Starter-Bluemix
 
 
 letswift-api(backend service) is reachable at the following URL(s):
-  * wget http://192192.168.99.100:8090/vote
+```
+$ wget http://192192.168.99.100:8090/vote
+```
 
