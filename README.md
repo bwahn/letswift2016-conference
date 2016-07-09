@@ -60,7 +60,7 @@ $ docker run -d -p 8090:8090 --name api swift-api:latest
 
 $ docker ps -a
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                       PORTS               NAMES
-c2c8fe350454        swift-api:latest    "/letswift-api/run_sw"   4 minutes ago       Exited (127) 2 minutes ago                       api
+c2c8fe350454        swift-api:latest    "/letswift-api/run_sw"   4 minutes ago       Up 56 seconds       0.0.0.0:8090->8090/tcp   api
 
 $ docker logs -f c2
 >> About to clone branch 'develop' for Kitura-Starter-Bluemix
