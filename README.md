@@ -9,7 +9,7 @@ $ vagrant up
 $ vagrant ssh
 $ cd ~/letswift2016-conference/letswift-server
 $ swift build -Xcc -fblocks
-$ .build/debug/KituraSample
+$ .build/debug/letswift-api
 
 ```
 letswift-api(backend service) is reachable at the following URL(s):
