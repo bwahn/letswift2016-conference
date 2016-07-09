@@ -1,8 +1,7 @@
 #!/bin/bash
 
-echo "abc"
 /root/clone_build_test_kitura.sh
 
-cd /letswift-api
+cd /letswift-server
 swift build -Xcc -fblocks
-./build/debug/myFirstProject
+./build/debug/letswift-api
