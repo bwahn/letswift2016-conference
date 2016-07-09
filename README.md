@@ -7,7 +7,7 @@ SlideShare : http://www.slideshare.net/EricAhn/swift-serversidelet-swift2016
 ```
 $ vagrant up
 $ vagrant ssh
-$ cd ~/Kitura-Sample
+$ cd ~/letswift2016-conference/letswift-server
 $ swift build -Xcc -fblocks
 $ .build/debug/KituraSample
 
