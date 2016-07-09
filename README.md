@@ -125,3 +125,8 @@ Linking .build/debug/Kitura-Starter-Bluemix
 >> Build for Kitura-Starter-Bluemix completed (see above for results).
 >> About to test Kitura...
 ```
+
+
+letswift-api(backend service) is reachable at the following URL(s):
+  * wget http://192192.168.99.100:8090/vote
+
