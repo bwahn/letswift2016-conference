@@ -18,7 +18,11 @@ vagrant@ $ .build/debug/letswift-api
 ```
 letswift-api(backend service) is reachable at the following URL(s):
 ```
-$ wget http://192.168.99.100:8090/vote
+$ curl  http://192.168.99.100:8090/vote
+{
+  "swift": 0,
+  "objective-c": 0
+}
 ```
 
 # For Docker
@@ -148,6 +152,10 @@ Linking .build/debug/Kitura-Starter-Bluemix
 
 letswift-api(backend service) is reachable at the following URL(s):
 ```
-$ wget http://192.168.99.100:8090/vote
+$ curl  http://192.168.99.100:8090/vote
+{
+  "swift": 0,
+  "objective-c": 0
+}
 ```
 
