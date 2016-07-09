@@ -1,8 +1,13 @@
-#!/bin/bash
+FROM ibmcom/kitura-ubuntu
 
-echo "abc"
-/root/clone_build_test_kitura.sh
+ENV swift-api 0.1.0
 
-cd /letswift-api
-swift build -Xcc -fblocks
-./build/debug/myFirstProject
+COPY letswift-server /letswift-server
+
+#ADD run_swift_api.sh run_swift_api.sh
+#COPY run_swift_api.sh /letswift-server/run_swift_api.sh
+
+EXPOSE 8090 
+
+WORKDIR "/letswift-server"
+CMD ["/letswift-server/run_swift_api.sh"]
