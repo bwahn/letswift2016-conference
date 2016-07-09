@@ -5,11 +5,15 @@ SlideShare : http://www.slideshare.net/EricAhn/swift-serversidelet-swift2016
 # VirtualBox ( local machine )
 
 ```
+$ git clone https://github.com/bwahn/letswift2016-conference.git
+$ cd letswift-server
 $ vagrant up
+
 $ vagrant ssh
-$ cd ~/letswift2016-conference/letswift-server
-$ swift build -Xcc -fblocks
-$ .build/debug/letswift-api
+vagrant@ $ git clone https://github.com/bwahn/letswift2016-conference.git
+vagrant@ $ cd letswift2016-conference/letswift-server
+vagrant@ $ swift build -Xcc -fblocks
+vagrant@ $ .build/debug/letswift-api
 
 ```
 letswift-api(backend service) is reachable at the following URL(s):
