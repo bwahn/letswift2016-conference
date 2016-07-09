@@ -4,6 +4,7 @@ SlideShare : http://www.slideshare.net/EricAhn/swift-serversidelet-swift2016
 
 # For Docker
 
+```
 $ docker-machine create -d virtualbox default
 
 $ docker-machine env default
@@ -23,7 +24,7 @@ $ docker-machine ip default
 $ docker ps -a 
  ID        IMAGE               COMMAND                  CREATED             STATUS                       PORTS               NAMES
  
-$ git clone https://github.com/bwahn/letswift2016-conference/
+$ git clone https://github.com/bwahn/letswift2016-conference.git
 
 $ docker build -t swift-api .
 $ docker images
@@ -123,3 +124,4 @@ Compile Swift Module 'Kitura_Starter_Bluemix' (1 sources)
 Linking .build/debug/Kitura-Starter-Bluemix
 >> Build for Kitura-Starter-Bluemix completed (see above for results).
 >> About to test Kitura...
+```
