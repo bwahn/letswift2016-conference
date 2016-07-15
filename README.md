@@ -16,7 +16,7 @@ vagrant@ $ swift build -Xcc -fblocks
 vagrant@ $ .build/debug/letswift-api
 
 ```
-letswift-api(backend service) can be reachable at the following URL(s):
+letswift-api(backend service) can be requested at the following URL(s):
 ```
 $ curl  http://192.168.99.100:8090/vote
 {
@@ -157,7 +157,7 @@ VERBOSE: run() Kitura.swift line 44 - Staring Kitura framework...
 ```
 
 
-letswift-api(backend service) is reachable at the following URL(s):
+letswift-api(backend service) can be requested at the following URL(s):
 ```
 $ curl  http://192.168.99.100:8090/vote
 {
